@@ -33,7 +33,7 @@ public class PaymentController {
          log.info("masert test" + result);
         log.info("hello test" + result);
         log.info("plus test" + result);
-
+ log.info("pull test" + result);
         if (result > 0) {
 
             return new CommonResult(200, "插入数据库成功", result);
