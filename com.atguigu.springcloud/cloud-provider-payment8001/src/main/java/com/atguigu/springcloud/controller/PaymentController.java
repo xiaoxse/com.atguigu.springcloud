@@ -27,13 +27,13 @@ public class PaymentController {
     @PostMapping(value = "/payment/create")
     public CommonResult create(Payment payment) {
         int result = paymentService.create(payment);
-        log.info("*********" + result);
-        log.info("插入*********1" + result);
-        log.info("插入*********2" + result);
-         log.info("masert test" + result);
-        log.info("hello test" + result);
-        log.info("plus test" + result);
- log.info("pull test" + result);
+//        log.info("*********" + result);
+//        log.info("插入*********1" + result);
+//        log.info("插入*********2" + result);
+//        log.info("masert test" + result);
+//        log.info("hello test" + result);
+//        log.info("plus test" + result);
+//        log.info("pull test" + result);
         if (result > 0) {
 
             return new CommonResult(200, "插入数据库成功", result);
