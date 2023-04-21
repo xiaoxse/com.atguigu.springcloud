@@ -28,6 +28,7 @@ public class PaymentController {
     public CommonResult create(Payment payment) {
         int result = paymentService.create(payment);
         log.info("*********" + result);
+        log.info("插入*********" + result);
 
         if (result > 0) {
 
