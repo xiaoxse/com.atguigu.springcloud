@@ -31,6 +31,7 @@ public class PaymentController {
         log.info("插入*********1" + result);
         log.info("插入*********2" + result);
         log.info("masert test" + result);
+        log.info("hello test" + result);
 
         if (result > 0) {
 
